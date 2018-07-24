@@ -1,0 +1,74 @@
+body{
+  background-color: #fdf6f0;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #30354A;
+}
+
+header{
+  background-color: #30354A;
+  color: #EDBDB3;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profile-img{
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 30%;
+}
+
+.h1{
+  font-family: 'Cookie', cursive;
+  font-size: 70px;
+  color: #EDBDB3;
+  margin: 0;
+}
+
+.h3{
+  text-decoration: overline;
+  margin: 0;
+}
+
+.paragraph{
+  text-align: left;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+
+a {
+  color: #fdf6f0;
+  }
+
+a:hover {
+  color: #685044;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fdf6f0;
+}
+
+.footer {
+  background-color: #30354A;
+  color: #EDBDB3;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer a{
+  margin: 10px;
+  color: #fdf6f0;
+}
+
+.foot-hover:hover{
+  color: #fdf6f0;
+}
