@@ -8,6 +8,8 @@ body{
   justify-content: center;
   width: 850px;
   height: 450px;
+  display: flex;
+  align-items: center;
 }
 
 .center {
