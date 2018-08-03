@@ -25,15 +25,13 @@ body{
   margin: 0;
 }
 
-
 .flex{
   width:840px;
   height:324px;
   background:lightgray;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: flex-start;
   padding: 5px;
   color: black;
   font-family: sans-serif;
@@ -60,4 +58,13 @@ body{
 ul{
   padding: 0;
   list-style-type: none;
+}
+
+.button1{
+  padding-top-bottom:10px;
+}
+
+.button2{
+  padding-top-bottom:10px;
+  height: 70px;
 }
