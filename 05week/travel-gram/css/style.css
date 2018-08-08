@@ -1,4 +1,38 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-body{
-  background: grey;
 }
+
+
+.main-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2em;
+  grid-gap: 2em;
+  grid-auto-rows: minmax(100px, auto);
+  width: 100%;
+  grid-template-areas:
+  "box1 box2"
+}
+
+.box:nth-child(even){
+  background-color: gray;
+  }
+
+.box:nth-child(odd){
+  background-color: lightgray;
+}
+
+.box1{
+  grid-area: box1;
+  grid-template-columns: 25% 75%;
+  grid-column-gap: 1em;
+  }
+
+.box2{
+  grid-area: box2;
+  grid-template-columns: 25% 75%;
+  grid-column-gap: 1em;
+  }
