@@ -1,0 +1,73 @@
+body{
+  font-family: sans-serif;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  }
+
+.main{
+float:left;
+width: 80%;
+}
+
+.img-container{
+  background: url(../img/bg.jpg) no-repeat center center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+
+}
+
+article{
+  padding: 20px;
+}
+
+h1{
+  padding-bottom: 15px;
+}
+
+div{
+  padding: 20px;
+}
+
+.tech-button{
+  color: white;
+  background-color:grey;
+  font-size: 15px;
+  width: 110px;
+  height:20px;
+  padding:5px;
+  display: flex;
+}
+
+.aside{
+  float:right;
+  width: 20%;
+  font-size: 13px;
+}
+
+.aside h1{
+  font-size: 20px;
+  border-bottom: 2px solid;
+}
+
+@media (max-width: 768px){
+  main {
+    display: block;
+  }
+  aside{
+    display: none;
+  }
+  article{
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+  article{
+    width: 100%;
+  }
+}
