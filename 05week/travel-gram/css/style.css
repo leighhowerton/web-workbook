@@ -42,5 +42,5 @@ header {
   grid-template-columns: 25% 75%;
   grid-column-gap: 1em;
   grid-template-areas:
-  "b2h b2p"
+  "b2h b2p";
 }
